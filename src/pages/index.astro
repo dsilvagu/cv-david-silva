@@ -1,0 +1,177 @@
+---
+import '../../input.css'
+---
+
+<html lang="es">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>David Alejandro Silva Gutiérrez - CV</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+  		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  		<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,500;0,700;0,800;1,500;1,700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+	</head>
+	<body class="bg-[#0A0A0B] text-[#EDE4ED] font-sans">
+		<div class="max-w-[1100px] mx-auto px-6 pb-16">
+			<!--Navbar -->
+			<div class="bg-[#151517] rounded-[18px] flex items-center justify-between px-8 py-5 mb-4">
+				<p class="font-[Archivo] text-lg tracking-tight">
+					<span class="italic font-medium">DAVID</span><span class="font-extrabold">SILVA</span>
+				</p>
+
+				<div class="flex gap-8 font-[JetBrains_Mono]">
+					<a href="#perfil" class="hover:text-[#EDEDED] transition-colors">PERFIL</a>
+					<a href="#experiencia" class="hover:text-[#EDEDED] transition-colors">EXPERIENCIA</a>
+					<a href="#proyectos" class="hover:text-[#EDEDED] transition-colors">PROYECTOS</a>
+					<a href="#contacto" class="hover:text-[#EDEDED] transition-colors">CONTACTO</a>
+
+				</div>
+			</div>
+
+			<!--Aquí sigue el resto: hero, experiencia, proyectos -->
+			
+			<!-- Hero -->
+			<div class="grid grid-cols-3 gap-4 mb-4">
+			<div id="perfil" class="col-span-2 bg-[#151517] rounded-[18px] p-10 flex flex-col h-full">
+				<p class="font-[JetBrains_Mono] text-[11px] tracking-widest text-neutral-500">
+				INGENIERO DE SISTEMAS — PIURA, PERÚ
+				</p>
+				<h1 class="font-[Archivo] font-extrabold text-[64px] leading-[0.9] uppercase mt-3">
+				David Silva<br />Gutiérrez
+				</h1>
+
+				<div class="flex gap-10 mt-6">
+				<div>
+					<p class="font-[Archivo] font-extrabold text-2xl">3+</p>
+					<p class="font-[JetBrains_Mono] text-[10px] tracking-widest text-neutral-500">AÑOS EN GORE PIURA</p>
+				</div>
+				<div>
+					<p class="font-[Archivo] font-extrabold text-2xl">2</p>
+					<p class="font-[JetBrains_Mono] text-[10px] tracking-widest text-neutral-500">SISTEMAS EN PRODUCCIÓN</p>
+				</div>
+				</div>
+
+				<div class="mt-auto pt-6 border-t border-neutral-800">
+				<p class="font-[Archivo] italic font-medium text-[20px] leading-snug text-neutral-200 max-w-[560px]">
+					"Diseño y mantengo sistemas que operan las 24 horas — desde el despacho de agua hasta
+					plataformas de monitoreo electoral. Me interesa la precisión: que cada sistema haga
+					exactamente lo que tiene que hacer, sin fallos."
+				</p>
+				<p class="font-[JetBrains_Mono] text-[11px] tracking-widest text-neutral-500 mt-3">
+					PHP · MYSQL · TAILWIND CSS · ADMINLTE · GIT · ASTRO
+				</p>
+				</div>
+			</div>
+
+			<div class="col-span-1 flex flex-col gap-4">
+				<div
+					class="rounded-[18px] flex-1 bg-cover bg-center grayscale"
+					style="background-image: url('/foto.jpg');"
+				></div>
+				<div class="bg-[#151517] rounded-[18px] p-5 flex items-center justify-between">
+				<p class="font-[Archivo] font-extrabold text-3xl">24/7</p>
+				<p class="font-[JetBrains_Mono] text-[10px] tracking-widest text-neutral-500 text-right leading-tight">
+					SISTEMAS<br />EN OPERACIÓN
+				</p>
+				</div>
+			</div>
+			</div>
+
+			
+			<!--Experiencia -->
+			<div id="experiencia" class="bg-[#151517] rounded-[18px] p-9 mb-4">
+				<p class="font-[Archivo] font-extrabold text-2xl uppercase mb-6">Experiencia</p>
+				<div class="grid grid-cols-[110px_1fr] gap-x-6 gap-y-6">
+					<p class="font-[JetBrains_Mono] text-[11px] text-neutral-500 pt-1">
+						[año] - jun. 2026
+					</p>
+					<div class="pb-6 border-b border-neutral-800">
+						<p class="font-medium text-[16px]">Ingeniero de Sistemas</p>
+						<p class="italic text-sm text-neutral-400 mb-2">Centro de Abastecimiento de Agua Bayóvar - GORE Piura</p> 
+						<p class="text-[13px] text-neutral-400 leading-relaxed">
+							Desarrollo y mantenimiento de SISCAAB, sistema de despacho de agua 24/7: dashboards con AdminLTE, generación de reportes en PDF y gestión de base de datos.
+						</p>
+					</div>
+
+					<p class="font-[JetBrains_Mono] text-[11px] text-neutral-500 pt-1">
+						[año] - jun. 2026
+					</p>
+					<div class="pb-6 border-b border-neutral-800">
+						<p class="font-medium text-[16px]">Maquetador de Correos HTML</p>
+						<p class="italic text-sm text-neutral-400 mb-2">Bronca Systems INC</p> 
+						<p class="text-[13px] text-neutral-400 leading-relaxed">
+							Programación y maquetación de plantillas de correo electrónico en HTML, listas para que otras áreas de la empresa las utitilizaran en sus campañas de envío.
+						</p>
+					</div>
+
+					<p class="font-[JetBrains_Mono] text-[11px] text-neutral-500 pt-1">
+						[año] - jun. 2026
+					</p>
+					<div class="pb-6 border-b border-neutral-800">
+						<p class="font-medium text-[16px]">Ingeniero de Sistemas</p>
+						<p class="italic text-sm text-neutral-400 mb-2">Ekonodrywall · Dagos Store</p> 
+						<p class="text-[13px] text-neutral-400 leading-relaxed">
+							Desarrollo de un sistema de ventas y almacén en Ekonodrywall, junto con una aplicación
+                            iOS que permitía a los usuarios visualizar en 3D los materiales de venta.
+						</p>
+					</div>
+
+				</div>
+			</div>
+
+			<!--Educación / Habiliades / Contacto -->
+
+			<div class="grid grid-cols-3 gap-4 mb-4">
+				<div class="col-span-1">
+					<p class="font-[JetBrains_Mono] text-[10px] tracking-widest text-neutral-500 mb-2" >EDUCACIÓN</p>
+					<p class="text-[14px] font-medium">Ing. de Sistemas</p>
+					<p class="text-[13px] text-neutral-400">Universidad César Vallejo · Tercio superior</p>
+					<p class="text-[13px] text-neutral-400 mt-2">IDAT · Técnico en informática</p>
+				</div>
+
+				<div class="col-span-1">
+					<p class="font-[JetBrains_Mono] text-[10px] tracking-widest text-neutral-500 mb-2">HABILIDADES</p>
+					<p class="text-[13px] text-neutral-300 leading-relaxed">PHP / MySQL (MVC) · AdminLTE · DataTables · JavaScript · Tailwind CSS · PDF &amp; Code128 · Git
+					</p>
+				</div>
+				<div id="contacto" class="col-span-1">
+					<p class="font-[JetBrains_Mono] text-[10px] tracking-widest text-neutral-500 mb-2">CONTACTO</p>
+					<p class="text-[13px] text-neutral-300 leading-relaxed">
+						dasg2506@icloud.com<br />+51 930 830 373<br />
+					</p>
+				</div>
+			</div>
+
+			<!--Proyectos -->
+			<div id="proyectos" class="grid grid-cols-3 gap-4">
+				<div class="col-span-2 bg-[#D8DCE6] text-[#0A0A0B] rounded-[18px] p-8 flex flex-col justify-between min-h-[200px]">
+					<p class="font-[JetBrains_Mono] text-[10px] tracking-widest text-neutral-600">
+						PHP · MYSQL · ELECCIONES REGIONALES 2026
+					</p>
+					<div>
+					<p class="font-[Archivo] font-extrabold text-4xl leading-none mb-2">PersonerosPiura</p>
+					<p class="text-[13px] text-neutral-600 max-w-[420px]">
+						Plataforma de monitoreo electoral con jerarquía geográfica de 4 niveles, flujo de personero de 3 pantallas y panel de resultados en tiempo real.
+					</p>
+				</div>
+				</div>
+
+				<div class="col-span-1 bg-[#151517] rounded-[18px] p-7 flex flex-col justify-between min-h-[200px]">
+					<p class="font-[JetBrains_Mono] text-[10px] tracking-widest text-neutral-500">24/7 · GORE PIURA</p>
+					<div>
+						<p class="font-[Archivo] font-extrabold text-2xl leading-none">SISCAAB</p>
+						<p class="text-[12px] text-neutral-400 mt-2">Sistema de despacho de agua operativo 24 horas.</p>
+					</div>
+				</div>
+				
+			</div>
+
+
+
+
+
+
+		</div>
+		
+	</body>
+</html>
