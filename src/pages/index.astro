@@ -138,23 +138,37 @@ import '../../input.css'
 
 			<!--Proyectos -->
 			<div id="proyectos" class="grid grid-cols-1 md:grid-cols-3 gap-4">
-				<div class="md:col-span-2 bg-[#D8DCE6] text-[#0A0A0B] rounded-[18px] p-6 sm:p-8 flex flex-col justify-between min-h-[180px] sm:min-h-[200px]">
-					<p class="font-[JetBrains_Mono] text-[10px] tracking-widest text-neutral-600">
-						PHP · MYSQL · ELECCIONES REGIONALES 2026
-					</p>
-					<div>
-					<p class="font-[Archivo] font-extrabold text-3xl sm:text-4xl leading-none mb-2">PersonerosPiura</p>
-					<p class="text-[13px] text-neutral-600 max-w-[420px]">
-						Plataforma de monitoreo electoral con jerarquía geográfica de 4 niveles, flujo de personero de 3 pantallas y panel de resultados en tiempo real.
-					</p>
-				</div>
+				<div class="md:col-span-2 relative rounded-[18px] overflow-hidden min-h-[280px] sm:min-h-[320px]">
+					<img
+						src="/personerospiura.jpg"
+						alt="Dashboard de PersonerosPiura 2026"
+						class="absolute inset-0 w-full h-full object-cover object-top"
+					/>
+					<div class="absolute inset-0 bg-linear-to-t from-black/90 via-black/40 to-transparent"></div>
+					<div class="relative h-full flex flex-col justify-end p-6 sm:p-8">
+						<p class="font-[JetBrains_Mono] text-[10px] tracking-widest text-neutral-300">
+							PHP · MYSQL · ELECCIONES REGIONALES 2026
+						</p>
+						<p class="font-[Archivo] font-extrabold text-3xl sm:text-4xl leading-none mt-2 mb-2 text-white">
+							PersonerosPiura
+						</p>
+						<p class="text-[13px] text-neutral-200 max-w-[420px]">
+							Plataforma de monitoreo electoral con jerarquía geográfica de 4 niveles, flujo de personero de 3 pantallas y panel de resultados en tiempo real.
+						</p>
+					</div>
 				</div>
 
-				<div class="col-span-1 bg-[#151517] rounded-[18px] p-6 sm:p-7 flex flex-col justify-between min-h-[180px] sm:min-h-[200px]">
-					<p class="font-[JetBrains_Mono] text-[10px] tracking-widest text-neutral-500">24/7 · GORE PIURA</p>
-					<div>
-						<p class="font-[Archivo] font-extrabold text-2xl leading-none">SISCAAB</p>
-						<p class="text-[12px] text-neutral-400 mt-2">Sistema de despacho de agua operativo 24 horas.</p>
+				<div class="col-span-1 relative rounded-[18px] overflow-hidden min-h-[280px] sm:min-h-[320px]">
+					<img
+						src="/siscaab.jpg"
+						alt="Dashboard de SISCAAB"
+						class="absolute inset-0 w-full h-full object-cover object-top"
+					/>
+					<div class="absolute inset-0 bg-linear-to-t from-black/90 via-black/40 to-transparent"></div>
+					<div class="relative h-full flex flex-col justify-end p-6 sm:p-7">
+						<p class="font-[JetBrains_Mono] text-[10px] tracking-widest text-neutral-300">24/7 · GORE PIURA</p>
+						<p class="font-[Archivo] font-extrabold text-2xl leading-none mt-2 text-white">SISCAAB</p>
+						<p class="text-[12px] text-neutral-200 mt-2">Sistema de despacho de agua operativo 24 horas.</p>
 					</div>
 				</div>
 			</div>
